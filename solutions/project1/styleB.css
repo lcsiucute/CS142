@@ -1,0 +1,32 @@
+html, body {
+	height: 100%;
+}
+
+.box {
+	display: flex;
+	font-family: Tahoma;
+	font-size: 40px;
+}
+
+.ace, .bd, .f {
+	background-color: #eeeff2;
+	width: 100px;
+	min-width: 100px;
+	height: 150px;
+	padding: 10px;
+	border-left-style: dotted;
+	border-left-color: #D0D0FF;
+	border-left-width: 10px;
+	margin: 10px;
+}
+
+.f {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+.ace:hover, .bd:hover, .f:hover {
+	background-color: yellow;
+	color: goldenrod;
+}

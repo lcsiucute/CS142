@@ -1,0 +1,15 @@
+<div>
+    <div class='pics' ng-repeat="photo in userPhotos">
+        <img ng-src="images/{{photo.file_name}}" alt="{{photo._id}}">
+        <div>photo name: {{photo.file_name}}</div>
+        <div>creation time: {{photo.date_time}}</div>
+        <div>comments: </div>
+        <div>***************************************************************</div>
+        <div class='comments' ng-repeat='comment in photo.comments'>
+            <div>comment: {{comment.comment}}</div>
+            <div>creation time: {{comment.date_time}}</div>
+            <div>---------------------------------------------------------</div>
+        </div>
+        <div>***************************************************************</div>
+    </div>
+</div>

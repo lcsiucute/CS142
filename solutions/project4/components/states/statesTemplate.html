@@ -1,0 +1,11 @@
+<!--Replaced this with the Angular template for states component of CS142 Project #4
+    Problem #2.-->
+<div>
+    <h1>CS142 Project#4 States Example</h1>
+    <label class="cs142-example-output">Input a sub-string: <input type="text" ng-model="textInput"></label>
+    <p ng-if="textInput">
+        This text will appear when textInput is truthy. testInput === {{textInput}}
+    </p>
+    <!-- Then we need to output the states fulfilling that sub-string, instead of a textInput. -->
+    <div class="regions" ng-repeat="item in targetStates(textInput)"> {{item}} </div>
+</div>

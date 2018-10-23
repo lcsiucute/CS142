@@ -1,0 +1,18 @@
+Global function cs142MakeMultiFilter
+Input: originalArray (an array)
+Output: arrayFilter(a function)
+	internal: currentArray (set to originalArray initially)
+	input1: filterCriteria
+	input2: callback
+	output: itself, if filterCriteria is not specified
+		currentArray
+
+Notes: it is necessary to store originalArray into this new function arrayFilter as an internal storage.
+Consider: When one of the currentArray changes, others change or not?
+
+
+class: Cs142TemplateProcessor
+parameter: template (string)
+method: fillIn (take in a dictionary parameter)
+
+
