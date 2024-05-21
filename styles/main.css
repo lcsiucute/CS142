@@ -1,0 +1,19 @@
+/*
+CSS for the project 6 main page
+*/
+
+.main-topbar-buffer {
+  margin-top: 63px;
+}
+
+.main-grid-item {
+  height: 95%;
+  padding: 2%;
+  /* height: calc(100vh - 85px); */
+}
+
+body {
+  background: #E8D5B5;
+}
+
+/* 64 80 181 */
